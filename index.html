@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <script src="./effect.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <span class="name" ><a href="#Home" >Ankur Sharma</a></span>
+        <nav>
+            <ul class="nav-item">
+                <li class="active link"><a href="#Home">Home</a></li>
+                <li class="link"><a href="#MyHobbies">My Hobbies</a></li>
+                <li class="link"><a href="#Skills">Skills</a></li>
+            </ul>
+        </nav>            
+    </header>
+    <!-- Home starts -->
+    <section class = "first-section" id="Home">
+        <div class="left">
+            <h1 class="heading" onmouseover="design()">WEB DEVELOPER | ENGINEER</h1>
+            
+            <p class="intro">I am Ankur Sharma . I am a first Year Student in <a href="http://www.nsit.ac.in/" target="_blank"> Netaji Subhas University of Technology. </a>I am prusing my bachelors degree in Instrumentation and Conrol Engineering from NSUT.</p>
+            <button class="btn"><a href="#MyHobbies">My Hobbies</a></button>
+            <button class="btn"><a href="#Skills">Skills</a></button>
+        </div>
+        <div class="right"><img src="./ankur_formal.jpeg" alt="myImage"></div>
+    </section>
+    <!-- Home ends -->
+
+    <!-- My hobbies starts -->
+    <section class="second-section">
+        <h2 class="heading" id="MyHobbies">My Hobbies</h2>
+        <ul class="hobby">
+            <li class="hobby-list"><img class="hobby-img" src="./cricket-symbol.jpg" alt="cricket bat and ball">Cricket</li>
+            <li class="hobby-list"><img class="hobby-img" src="./code-symbol.png" alt="&lt; / &gt;">Code</li>
+            <li class="hobby-list"><img class="hobby-img" src="./read-symbol.png" alt="book read">Read</li>
+            <li class="hobby-list" id="doraemon"><img class="hobby-img" src="./doraemon.png" alt="doraemon">Doraemon</li>            
+        </ul>
+    </section>   
+
+    <!-- My hobbies ends -->
+
+
+     <!-- Skills starts -->
+     <section class="third-section">
+        <h2 class="heading" id="Skills">Skills</h2>
+        <div class="skills-bar">
+        <div class="bar">
+            <div class="info">
+                <span>HTML</span>
+            </div>
+            <div class="progress-line html"><span></span></div>
+        </div>
+        
+        <div class="bar">
+            <div class="info">
+                <span>CSS</span>
+            </div>
+            <div class="progress-line css"><span></span></div>
+        </div>
+        <div class="bar">
+            <div class="info">
+                <span>JAVASCRIPT</span>
+            </div>
+            <div class="progress-line js"><span></span></div>
+        </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- Skills ends -->
+
+    <!-- footer -->
+    <footer class="last">
+        <p class="msg">Created by | <span class="creator">Ankur Sharma</span> | Copyright &copy; </p>
+    </footer>
+</body>
+</html>
